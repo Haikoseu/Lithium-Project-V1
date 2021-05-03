@@ -4,6 +4,7 @@
 CREATOR = 'Hecos#4117'
 CONTACT = 'thehecos@gmail.com'
 PROJECT = 'Lithium Project'
+LICENSE = 'Source'
 VERSION = 'v1.0.0.0'
 
 # LIBRARIES -------------------------------------- #
@@ -92,7 +93,7 @@ async def dispinfo(ctx, lg=str('en')):
         embedinfos = discord.Embed(title='Lithium Bot', color=int("2eaf8e",16))
         embedinfos.add_field(name="Nom du projet :", value=f"{PROJECT}", inline=True)
         embedinfos.add_field(name="᲼", value=f"᲼", inline=True)
-        embedinfos.add_field(name="Version :", value=f"{VERSION}", inline=True)
+        embedinfos.add_field(name="Version :", value=f"{LICENSE} {VERSION}", inline=True)
         embedinfos.add_field(name="Créateur :", value=f"{CREATOR}", inline=True)
         embedinfos.add_field(name="᲼", value=f"᲼", inline=True)
         embedinfos.add_field(name="Contact :", value=f"{CONTACT}", inline=True)
@@ -100,7 +101,7 @@ async def dispinfo(ctx, lg=str('en')):
         embedinfos = discord.Embed(title='Lithium Bot', color=int("2eaf8e",16))
         embedinfos.add_field(name="Project name :", value=f"{PROJECT}", inline=True)
         embedinfos.add_field(name="᲼", value=f"᲼", inline=True)
-        embedinfos.add_field(name="Version :", value=f"{VERSION}", inline=True)
+        embedinfos.add_field(name="Version :", value=f"{LICENSE} {VERSION}", inline=True)
         embedinfos.add_field(name="Creator :", value=f"{CREATOR}", inline=True)
         embedinfos.add_field(name="᲼", value=f"᲼", inline=True)
         embedinfos.add_field(name="Contact :", value=f"{CONTACT}", inline=True)
