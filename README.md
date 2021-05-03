@@ -1,0 +1,2 @@
+# LithiumProject
+Lithium Discord Bot
