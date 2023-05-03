@@ -1,2 +1,2 @@
-# Lithium Project v1
+# Lithium Project V1
 Lithium Discord Bot
